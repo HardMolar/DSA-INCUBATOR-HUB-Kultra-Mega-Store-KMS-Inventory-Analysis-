@@ -1,4 +1,4 @@
-![009](https://github.com/user-attachments/assets/411cf171-6b9e-4d80-b082-ef9b3da323c0)# KULTRA MEGA STORE (KMS) INVENTORY ANALYSIS
+# KULTRA MEGA STORE (KMS) INVENTORY ANALYSIS
 ## 📌 Case Study Overview
 Kultra Mega Stores (KMS), a Nigerian mega store that has her headquarters in Lagos and has branches worldwide. and her client based include corporate clients (Wholesale), Small Businesses (retail) and individual consumers; is planning to grow her Abuja division. 
 The analysis spans data from 2009 to 2012, and answers key business questions using Microsoft SQL Server, and as a Business Intelligence Analyst, I’ve been given the task to perform a comprehensive analysis on the given data, generate key insights and present my findings.
@@ -47,7 +47,8 @@ GROUP BY Product_Category
 ORDER BY Total_Sales DESC
 ```
 
-![001.png](https://github.com/user-attachments/assets/167ab9e8-d0e5-412a-afc8-f83faa55578a)
+![001](https://github.com/user-attachments/assets/b7f7931c-014a-4c2b-a3be-ccea10741973)
+
 
 
 2. Top 3 and Buttom 3 sales region
@@ -59,7 +60,8 @@ GROUP BY Region
 ORDER BY Total_Sales DESC
 ```
 
-![002a.jpg](https://github.com/user-attachments/assets/ba2fce3a-6934-495f-9f2e-d2d1dc95c8a1)
+![002a](https://github.com/user-attachments/assets/d784fbc7-9522-4ba1-8c1b-c33dfea893e6)
+
 
 
 * Buttom 3
@@ -70,7 +72,7 @@ GROUP BY Region
 ORDER BY Total_Sales ASC
 ```
 
-![002b.jpg](https://github.com/user-attachments/assets/e5aae28b-914b-4291-8c6f-af0ac49b3840)
+![002b](https://github.com/user-attachments/assets/3c4bd68e-2986-4c73-8cee-91ffbff6a565)
 
 
 3. Total appliance sales in Ontario
@@ -81,7 +83,7 @@ WHERE Product_Category = 'Appliances'
 AND Region = 'Ontario'
 ```
 
-![003.jpg](https://github.com/user-attachments/assets/87c49c5f-e47d-49eb-b81a-76a0c7ce85f6)
+![003](https://github.com/user-attachments/assets/86e1b567-cf59-40e9-af23-5d63cf663705)
 
 
 4. How to Increase revenue from buttom 10 customers
@@ -96,7 +98,8 @@ GROUP BY Customer_Name
 ORDER BY Lowest_Customer_Sales ASC
 ```
 
-![004.jpg](https://github.com/user-attachments/assets/57526139-6e9d-4ceb-b78b-946db8eada9b)
+![004](https://github.com/user-attachments/assets/33beca5c-4ff0-4c4e-aaca-d48099beaee1)
+
 
 
 5. Most Expensive Shipping method
@@ -107,7 +110,7 @@ GROUP BY Ship_Mode
 ORDER BY Highest_Shipping_Cost DESC
 ```
 
-![005.jpg](https://github.com/user-attachments/assets/2a510c25-7b6e-49d1-a700-366780e31a40)
+![005](https://github.com/user-attachments/assets/d8217985-70e7-44c5-82c3-931ad8d1f39d)
 
 
 ### 📍Case Scenario 2
@@ -141,9 +144,8 @@ GROUP BY ki.Customer_Name, ki.Product_Name
 ORDER BY Total_Spent_On_Products DESC
 ```
 
-![006a.jpg](https://github.com/user-attachments/assets/3b0160f2-ada7-4005-ab2a-f3078d41403c)
-
-![006b.jpg](https://github.com/user-attachments/assets/493fb56e-8700-4ca9-9529-607f5efc0082)
+![006a](https://github.com/user-attachments/assets/c77820f8-4fdf-462d-8f8e-df2e038b0dae)
+![006b](https://github.com/user-attachments/assets/2c1da9b1-4b34-47c3-b254-e436a4d23f09)
 
 
 7. Small business with the highest sales
@@ -155,7 +157,7 @@ GROUP BY Customer_Name
 ORDER BY Total_Sales DESC
 ```
 
-![007.jpg](https://github.com/user-attachments/assets/ce9edaf6-893a-4630-9c67-f43a748a19fe)
+![007](https://github.com/user-attachments/assets/49d8fd15-8b02-4144-8a8c-8423ac02c16d)
 
 
 8. Corporate customer with most orders (2009-2012)
@@ -169,7 +171,7 @@ GROUP BY Customer_Name
 ORDER BY Total_Orders DESC
 ```
 
-![008.jpg](https://github.com/user-attachments/assets/bae17b53-e479-4459-b622-f8eb19424a79)
+![008](https://github.com/user-attachments/assets/a3fcea8f-d013-4669-8603-26a9faa5e8c8)
 
 
 9. Most profitable consumer customer
@@ -181,7 +183,7 @@ GROUP BY Customer_Name
 ORDER BY Total_Sales DESC
 ```
 
-![009.jpg](https://github.com/user-attachments/assets/c6c2154c-b8dd-4e7f-98b7-0e844ddb213e)
+![009](https://github.com/user-attachments/assets/c169d9a9-bbed-4030-ad1f-84c86573470c)
 
 
 10. Customers that return their purchase

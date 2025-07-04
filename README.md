@@ -1,4 +1,5 @@
-# 📝 Case Study Overview
+# KULTRA MEGA STORE (KMS) INVENTORY ANALYSIS
+## 📌 Case Study Overview
 Kultra Mega Stores (KMS), a Nigerian mega store that has her headquarters in Lagos and has branches worldwide. and her client based include corporate clients (Wholesale), Small Businesses (retail) and individual consumers; is planning to grow her Abuja division. 
 The analysis spans data from 2009 to 2012, and answers key business questions using Microsoft SQL Server, and as a Business Intelligence Analyst, I’ve been given the task to perform a comprehensive analysis on the given data, generate key insights and present my findings.
 
@@ -13,8 +14,8 @@ The analysis spans data from 2009 to 2012, and answers key business questions us
 ## 🧰 Tools Used
   Microsoft SQL Server
 
-## 🏗️ Project Structure
-### 🧹Data Exploratory
+## 🧬 Project Structure
+### 🚧 Data Exploratory
   Performed Basic Exploratory Data Analysis on the data set to understand the structure of the data set, Identify patterns or relationships, Detect outliers or errors, and generate hypothesis for further analysis or modeling.
 ### 🛢️Database
   The project started with creating of database named KMS_DB
@@ -45,7 +46,9 @@ FROM KMS_Inventory
 GROUP BY Product_Category
 ORDER BY Total_Sales DESC
 ```
-![Product category with the highest sale](001.png)
+
+![001.png](https://github.com/user-attachments/assets/167ab9e8-d0e5-412a-afc8-f83faa55578a)
+
 
 2. Top 3 and Buttom 3 sales region
 * Top 3

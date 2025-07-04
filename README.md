@@ -162,6 +162,61 @@ FROM KMS_VIEW
 WHERE
 [Status] = 'Returned'
 
+11. Did shipping method match order priority?
+```sql
+SELECT Ship_Mode,
+Order_Priority,
+COUNT(Order_ID) AS Order_Count,
+SUM(Shipping_Cost) AS Total_Shipping_Cost,
+AVG(Shipping_Cost) AS Average_Shipping_Cost
+FROM KMS_Inventory
+WHERE Ship_Mode IN ('Express Air', 'Delivery Truck')
+GROUP BY Ship_Mode, Order_Priority
+ORDER BY Ship_Mode, Order_Priority
+```
+
+## Summary Report
+1. Top-selling category: Technology=  5,984,248.175
+2a. Top 3 regions: West, Ontario, Prarie
+2b. Bottom 3 regions: Nuvanut, Northwest Territories, Yukon
+3. Ontario Appliance Sales: 202,346.839630127
+4. Bottom 10 customers: Jeremy Farry, Natalie DeCherney, Nicole Fjeld, Katrina Edelman, Dorothy Dickinson, Christine Kargatis, Eric Murdock, Chris McAfee, Rick Huthwaite, Mark Hamilton.
+	* Recoomendations
+
+		* Target Promotions and Discounts
+	. Offer customized promotions or bundle deals to encourage repeat purchases, especially to those with only 1 or 2 orders.
+	. Use email marketing to provide special loyalty discounts to these low-performing customers.
+   
+		* Upsell and Cross-sell
+	. Suggest related or complementary products during checkout to increase basket size.
+	. For example, if a customer buys a printer, offer printer ink, paper, or extended warranty.
+
+		* Reduce Costs for Negative-Profit Customers
+	. For customers with negative profit margins (e.g., Mark Hamilton, Chris McAfee):
+	. Review shipping cost policies — maybe they’re getting free shipping on low-value orders.
+	. Consider setting a minimum order amount for free delivery.
+
+		*  Customer Feedback & Engagement
+	. Reach out to these customers through surveys or calls to understand:
+
+		* Improve Customer Experience
+	. Consider adding value through better post-sale support, faster delivery, or reward points for future purchases.
+
+5. Delivery Truck incurred the most shipping cost
+6. Most valuable customers with goods and services they purchased
+Emily Phan
+Deborah Brumfield
+Roy Skaria
+Sylvia Foulston
+Grant Carroll
+7. Small business customer with the highest sale
+	Dennis Kane; 75967.5932159424
+8. Corporate Customers with the most number os orders in 2009 -2012
+	Adam Hart; 19
+9. Most profitable customer: 
+	Emily Phan; 117124.435264587
+10. We have total of 419 customers both consumer and corporate, that retunred goods during this period.
+11. Express Air is definitly the most expensive, but looks the most fastest means of goods delivery and but Delivery trucks which is assumed economical is the slowest. i found out that over the years, delivery trucks incurred the most accrude shipping cost and the company have not been able to spend shipping cost based on priotiy orders. 
 
 
 

@@ -3,6 +3,12 @@
 
 - [Case Study](#case-study)
 - [Objectives](#objectives)
+- [Data Sources](#data-sources)
+- [Tools Used](#tools-used)
+- [Project Structure](#project-structure)
+- [Case Scenario](#case-scenario)
+- [Insight](#insight)
+- [Summary Report](#summary-report)
 
 ## 📌 Case Study Overview
 Kultra Mega Stores (KMS), a Nigerian mega store that has her headquarters in Lagos and has branches worldwide. and her client based include corporate clients (Wholesale), Small Businesses (retail) and individual consumers; is planning to grow her Abuja division. 

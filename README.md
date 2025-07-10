@@ -61,7 +61,6 @@ ORDER BY Total_Sales DESC
 
 ![IMG_2041](images/image/IMG_2041.jpg)
 
-
 2. Top 3 and Buttom 3 sales region
 * Top 3
  ```sql

@@ -22,6 +22,9 @@ The analysis spans data from 2009 to 2012, and answers key business questions us
   * CSV file with Customers information, products information and all shipping artilleries in all the branches from 2009 to 2012!
   * CSV file that contains returned orders status.
 
+![PHOTO-2025-07-10-11-46-32](https://github.com/user-attachments/assets/dce176fe-f4b4-4096-b139-92c7e0e8b2c7)
+
+
 ## 🧰Tools Used
   Microsoft SQL Server
 

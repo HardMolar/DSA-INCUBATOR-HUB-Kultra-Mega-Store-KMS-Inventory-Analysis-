@@ -59,7 +59,7 @@ GROUP BY Product_Category
 ORDER BY Total_Sales DESC
 ```
 
-![IMG_2041](https://github.com/user-attachments/assets/efea2eab-da07-4c72-908e-c10297adcc0f)
+![IMG_2041](images/image/IMG_2041.jpg)
 
 
 2. Top 3 and Buttom 3 sales region

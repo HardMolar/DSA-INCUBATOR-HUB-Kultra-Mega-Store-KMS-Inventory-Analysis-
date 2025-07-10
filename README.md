@@ -58,7 +58,8 @@ GROUP BY Product_Category
 ORDER BY Total_Sales DESC
 ```
 
-![001](https://github.com/user-attachments/assets/b7f7931c-014a-4c2b-a3be-ccea10741973)
+
+![001](https://github.com/user-attachments/assets/794d993b-6a3b-4f50-8da4-f1089a12072c)
 
 
 

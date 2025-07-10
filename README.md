@@ -1,7 +1,7 @@
 # KULTRA MEGA STORE (KMS) INVENTORY ANALYSIS
-## Table of Content
+## 📑Table of Content
 
-- [Case Study](#case-study)
+- [Case Study Overview](#case-study-overview)
 - [Objectives](#objectives)
 - [Data Sources](#data-sources)
 - [Tools Used](#tools-used)
@@ -10,22 +10,22 @@
 - [Insight](#insight)
 - [Summary Report](#summary-report)
 
-## 📌 Case Study Overview
+## 📌Case Study Overview
 Kultra Mega Stores (KMS), a Nigerian mega store that has her headquarters in Lagos and has branches worldwide. and her client based include corporate clients (Wholesale), Small Businesses (retail) and individual consumers; is planning to grow her Abuja division. 
 The analysis spans data from 2009 to 2012, and answers key business questions using Microsoft SQL Server, and as a Business Intelligence Analyst, I’ve been given the task to perform a comprehensive analysis on the given data, generate key insights and present my findings.
 
-## 🎯 Objectives
+## 🎯Objectives
   * Analyse the performance of products, regions, customers, and shipping performance between 2009 to 2012.
   * Provide insights to increase revenue and reduce costs
 
-## 🗃️ Data Sources
+## 🗃️Data Sources
   * CSV file with Customers information, products information and all shipping artilleries in all the branches from 2009 to 2012!
   * CSV file that contains returned orders status.
 
-## 🧰 Tools Used
+## 🧰Tools Used
   Microsoft SQL Server
 
-## 🧬 Project Structure
+## 🧬Project Structure
 ### 🚧 Data Exploratory
   Performed Basic Exploratory Data Analysis on the data set to understand the structure of the data set, Identify patterns or relationships, Detect outliers or errors, and generate hypothesis for further analysis or modeling.
 ### 🛢️Database
@@ -48,7 +48,7 @@ CREATE DATABASE KMS_DB
 10. Customers who returned items and their segment  
 11. Did shipping methods(Express air and Delivery Truck) match the order priority?
 
-## 🧠 Insight
+## 🧠Insight
 ### 📍Case Scenario 1
 1. Product category with the highest sale
 ```sql
@@ -236,7 +236,7 @@ ORDER BY Ship_Mode, Order_Priority
 ![011](https://github.com/user-attachments/assets/e5534218-f2cf-4c1f-9bde-1442d96919a2)
 
 
-## 📊 Summary Report
+## 📊Summary Report
 1. Top-selling category: Technology=  5,984,248.175
 2a. Top 3 regions: West, Ontario, Prarie
 2b. Bottom 3 regions: Nuvanut, Northwest Territories, Yukon
